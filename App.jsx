@@ -1,11 +1,11 @@
 import React from 'react';
-import ScoreBoard from './scoreboard';
+import UserProfile from './UserProfile';
 import './App.css';
 
 function App() {
     return (
         <div className="App">
-            <ScoreBoard />
+            <UserProfile />
         </div>
     );
 }
