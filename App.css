@@ -1,0 +1,79 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.App {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* ScoreBoard styling */
+.scoreboard {
+    text-align: center;
+}
+
+.scoreboard h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.scoreboard button {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scoreboard button:hover {
+    background-color: #0056b3;
+}
+
+/* Participant styling */
+.participant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.participant p {
+    margin: 0;
+}
+
+.participant .participant-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.participant button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.participant button:hover {
+    background-color: #218838;
+}
